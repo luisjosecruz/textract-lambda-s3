@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Textract</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <main>
+        <header class="header">
+            
+        </header>
+
+        <div class="container">
+            <div class="files">
+                <h1 class="files-title">Extracción de texto de documentos PDF e imágenes JPG y PNG</h1>
+                <div class="drag-area">
+                    <h4 class="drag-area__text">Arrastra y suelta tus archivos aquí</h4>
+                    <div class="drag-area__icons">
+                        <img src="assets/images/icons/pdf.png" alt="PDF">
+                        <img src="assets/images/icons/png.png" alt="PNG">
+                        <img src="assets/images/icons/jpg.png" alt="JPG">
+                    </div>
+                    <span class="drag-area__o">ó</span>
+                    <button class="drag-area__explore btn">Buscar en tus carpetas</button>
+                    <input type="file" id="file" hidden> 
+                </div>
+                <div class="content-files"></div>
+            </div>
+            <div class="wrap-text">
+                
+            </div>
+        </div>
+
+        <footer class="footer">
+
+        </footer>
+    </main>
+
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1024.0.min.js"></script>
+    <script src="assets/js/app.js"></script>
+
+</body>
+</html>
